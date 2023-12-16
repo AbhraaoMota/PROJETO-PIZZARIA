@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+
+
+body{
+    height: 100vh;
+    background-image: url("./Design\ sem\ nome.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
+    
+
+}
+.logo{
+    width: 80px;
+    padding: 10px 10px;
+    border-radius: 50%;    
+}
+.menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive ;
+}
+.eslogam{
+    background-image: url("https://bolichelitoralplaza.com.br/wp-content/uploads/2017/01/pizza-site-or.jpg");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    
+}
+.informacao{
+    background-color: rgba(0, 0, 0, 0.425);
+    font-family: 'Pacifico', cursive ;
+    font-size: 100px;
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px
+}
+.btn_pedido{
+    background-color: red;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.5s;   
+}
+.btn_pedido:hover{
+    transform: scale(1.1);
+}
+.compra{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    padding: 50px;
+}
+
+
+.promocao{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: white;
+    border-radius: 25px;
+    border-top-width:10px ;
+    border-top-style: solid;
+    border-top-color: red;
+    justify-content: center;
+ 
+}
+.promocao h2{
+    color: red;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.barra{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive ;
+    padding: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+    padding: 10px 0;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    width: 40%;
+    height: 200px;
+    background-color:#e2e2e2;
+    border-radius: 25px;
+    gap: 10px;
+}
+.box1 h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.box1 p{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.box1 h1{
+    font-size: 60px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-top: 50px;
+
+}
+.box1 span{
+    font-size:30px;
+
+}
+.pt{
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: white;
+    border-radius: 25px;
+    border-top:10px solid red ;
+       
+}
+.pt h2{
+    color: red;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.pd{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: white;
+    border-radius: 25px;
+    border-top-width:10px ;
+    border-top-style: solid;
+    border-top-color: red;
+    justify-content: center; 
+    
+}
+.pd h2{
+    color: red;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+img{
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fim{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+.fim h2{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    text-align: center;
+    align-items: center;
+    
+}
+.fim a{
+    color: white;
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive ;
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;
+
+}
+.fim span{
+    font-size: 100px;
+    font-family: 'Pacifico', cursive ;
+}
